@@ -1,0 +1,12 @@
+main {
+    max-width: 1000px;
+    border: 1px solid black; 
+    margin: 0 auto;
+}
+section {
+    background-color: pink;
+    text-align: center;
+}
+.hide {
+    display: none;
+}

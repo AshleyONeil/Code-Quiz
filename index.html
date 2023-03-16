@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <title>code quiz</title>
+</head>
+
+<body>
+    <header>
+        <h1>Code Quiz</h1>
+        <h2>
+            score : <span id="score"></span>
+        </h2>
+        <h2>
+            time remaining : <span id="timer"></span>
+        </h2>
+    </header>
+
+    <main>
+        <section id="start">
+            <h2>Code Quiz</h2>  
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <button id="start-btn" type="button" class="btn btn-danger">Start</button>
+        </section>
+        <section class="hide" id="quiz">
+            <h2 id="question">
+                Quiz question here
+            </h2>
+            <div id="button-container"></div>
+        </section>
+        <section class="hide" id="end">
+            <h2>
+                Game Over
+               
+            </h2>
+            <h3 id="results">
+
+            </h3>
+        </section>
+    </main>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
